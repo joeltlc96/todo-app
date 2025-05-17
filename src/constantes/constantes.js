@@ -11,5 +11,5 @@ export const TODOS = [
         description: "Recoger la ropa de la lavanderia",
         complete: false
 
-    }
+    },
 ]

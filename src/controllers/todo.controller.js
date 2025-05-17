@@ -39,7 +39,7 @@ export const getTodoById = async (req, res) => {
     }
 };
 
-export const completeTodo = async (req, res) => {
+export const CompleteTodo = async (req, res) => {
     const { id } = req.params;
 
     const { rows } = await dbClient.query(
@@ -56,7 +56,7 @@ export const completeTodo = async (req, res) => {
     }
 };
 
-export const deleteTodo = async (req, res) => {
+export const DeleteTodo = async (req, res) => {
     const { id } = req.params;
 
     const { rows } = await dbClient.query(

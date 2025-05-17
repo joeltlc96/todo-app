@@ -1,5 +1,5 @@
 import {Router} from "express";
-import { getTodos, getTodoById, CreateTodo, completeTodo, deleteTodo } from "../controllers/todo.controller.js";
+import { getTodos, getTodoById, CreateTodo, CompleteTodo, DeleteTodo } from "../controllers/todo.controller.js";
 
 const routerTODOS = Router();
 
@@ -9,8 +9,8 @@ routerTODOS.get('/todos/:id', getTodoById);
 
 routerTODOS.post('/todos', CreateTodo);
 
-routerTODOS.post('/completeTodos/:id', completeTodo);
+routerTODOS.post('/CompleteTodo/:id', CompleteTodo);
 
-routerTODOS.delete('/deleteTodos/:id', deleteTodo);
+routerTODOS.delete('/DeleteTodos/:id', DeleteTodo);
 
 export default routerTODOS;
