@@ -1,7 +1,7 @@
 import { dbClient } from "../db.js";
 import {TODOS} from "../constantes/constantes.js";
 
-export const getTodos = async (req, res) => {
+export const GetTodos = async (req, res) => {
 
     const { rows } = await dbClient.query(
         `SELECT * FROM todos`,
@@ -9,7 +9,7 @@ export const getTodos = async (req, res) => {
     res.status(200).json(rows);
 };
 
-export const getTodoByIdSample = (req, res) => {
+export const GetTodoByIdSample = (req, res) => {
     const { id } = req.params;
     const resultadoBusqueda = TODOS.filter( x => x.id == id);
 
@@ -22,7 +22,7 @@ export const getTodoByIdSample = (req, res) => {
     }
 };
 
-export const getTodoById = async (req, res) => {
+export const GetTodoById = async (req, res) => {
     const { id } = req.params;
 
     const { rows } = await dbClient.query(
