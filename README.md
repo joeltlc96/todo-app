@@ -41,11 +41,10 @@ Ahí verás todos los logs que tu app le está mandando a Seq en tiempo real.
 
 ---
 
-## 📸 Capturas de los logs en Seq
+## Carpeta de imágenes
 
+Podés ver las capturas acá: [Carpeta de imágenes](https://drive.google.com/drive/folders/1KWXv0Fn7p9EMC3jpDBwTwmAhOeGdLm4s?usp=drive_link)
 
-
-![Ejemplo de logs en Seq](https://drive.google.com/drive/folders/1KWXv0Fn7p9EMC3jpDBwTwmAhOeGdLm4s?usp=drive_link)
 
 ---
 
